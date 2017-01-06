@@ -66,7 +66,7 @@
 
 			  var $destination = $(link);
 			  $('html, body').animate({
-			      scrollTop: $destination.offset().top - 15
+			      scrollTop: $destination.offset().top
 			  }, 1000);
 				event.preventDefault();
 			});
